@@ -1,0 +1,13 @@
+:root {
+  --azul-claro: #EAF2FD;
+  --azul-medio: #2A7AE4;
+  --branco: #FFFFFF;
+  --cinza-claro: #E5E5E5;
+  --cinza-escuro: #464646;
+  --gelo: #F5F5F5;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  box-sizing: border-box;
+}
