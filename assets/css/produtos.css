@@ -20,7 +20,7 @@
   font-weight: 700;
 }
 
-.produtos__botao--voltar {
+.produtos__botao--ver {
   background-color: var(--branco);
   border: none;
   color: var(--azul-medio);
@@ -31,6 +31,7 @@
 
 .produtos__area {
   display: flex;
+  margin-bottom: 2rem;
   width: 21rem;
 }
 
@@ -93,4 +94,15 @@
   font-size: 0.875rem;
   font-weight: 700;
   padding: 0;
+}
+
+@media screen and (min-width: 340px) {
+  .produto__item:nth-child(5n) {
+    display: none;
+  }
+
+  .produto__item:nth-child(6n) {
+    display: none;
+  }
+  
 }
