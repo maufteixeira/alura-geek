@@ -1,0 +1,50 @@
+.menu {
+  align-items: center;
+  background-color: var(--azul-claro);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 21.5rem;
+}
+
+.menu__logo {
+  height: 3.1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 11rem;
+}
+
+.menu__lista {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style-type: none;
+  margin-bottom: 2rem;
+}
+
+.menu__item {
+  color: var(--cinza-escuro);
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.menu__link {
+  text-decoration: none;
+}
+
+.menu__link:link,
+.menu__link:active,
+.menu__link:visited,
+.menu__link:hover {
+  color: var(--cinza-escuro);
+}
+
+.menu__titulo--formulario {
+  align-self: flex-start;
+  color: var(--cinza-escuro);
+  font-size: 1rem;
+  font-weight: 700;
+  padding-left: 1rem;
+}
