@@ -1,0 +1,45 @@
+.painel {
+  margin: 0;
+  padding: 0;
+  width: 23rem;
+}
+
+.painel__items {
+  background-image: url(../img/painel.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 12rem;
+  justify-content: flex-end;
+  padding-left: 1rem;
+  width: 22.3rem;
+}
+
+.painel__titulo {
+  color: var(--branco);
+  font-size: 1.375rem;
+  font-weight: 700;
+  margin: 0;
+  padding-bottom: 0.5rem;
+}
+
+.painel__subtitulo {
+  color: var(--branco);
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.painel__botao {
+  background-color: var(--azul-medio);
+  border: none;
+  color: var(--branco);
+  font-size: 0.875rem;
+  font-weight: 600;
+  height: 2.5rem;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  width: 7.4rem;
+}

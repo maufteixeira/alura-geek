@@ -1,0 +1,22 @@
+.cabecalho {
+  align-items: center;
+  display:flex;
+  flex-direction: row;
+  height: 4.5rem;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.cabecalho__logo {
+  height: 1.75rem;
+  width: 6.25rem;
+}
+
+.cabecalho__botao {
+  background-color: var(--branco);
+  border: 1px solid var(--azul-medio);
+  color: var(--azul-medio);
+  height: 2.5rem;
+  width: 8.3rem;
+}
