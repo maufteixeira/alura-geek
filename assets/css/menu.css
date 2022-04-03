@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 21.5rem;
+  width: 22.5rem;
 }
 
 .menu__logo {
@@ -20,7 +20,10 @@
   flex-direction: column;
   justify-content: center;
   list-style-type: none;
+  margin: 0;
   margin-bottom: 2rem;
+  padding: 0;
+  width: 20rem;
 }
 
 .menu__item {
@@ -47,4 +50,46 @@
   font-size: 1rem;
   font-weight: 700;
   padding-left: 1rem;
+}
+
+.menu__nome {
+  border: none;
+  border-bottom: 3px solid var(--cinza-claro);
+  border-radius: 4px;
+  height: 3.5rem;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+  outline: none;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  width: 19rem;
+}
+
+.menu__mensagem {
+  border: none;
+  border-bottom: 3px solid var(--cinza-claro);
+  border-radius: 4px;
+  height: 5rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  outline: none;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  width: 19rem;
+}
+
+.menu__botao {
+  background-color: var(--azul-medio);
+  border: none;
+  color: var(--branco);
+  font-size: 0.875rem;
+  font-weight: 600;
+  height: 2.5rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  width: 9.4rem;
+
 }

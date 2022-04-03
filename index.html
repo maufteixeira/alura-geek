@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="./assets/css/painel.css">
   <link rel="stylesheet" href="./assets/css/produtos.css">
   <link rel="stylesheet" href="./assets/css/menu.css">
+  <link rel="stylesheet" href="./assets/css/rodape.css">
   <link rel="stylesheet" href="style.css">
   <title>AluraGeek</title>
 </head>
@@ -261,10 +262,30 @@
       </ul>
       <span class="menu__titulo--formulario">Fale conosco</span>
       <form class="menu__formulario">
-        <input type="text" name="nome">
-
+        <input 
+          class="menu__nome" 
+          type="text" 
+          name="nome" 
+          placeholder="Nome" 
+          title="Insira seu nome" 
+          required 
+          data-tipo="nome"
+        >
+        <textarea 
+          name="mensagem"  
+          cols="30" 
+          rows="10" 
+          class="menu__mensagem" 
+          placeholder="Escreva sua mensagem" 
+        >
+        </textarea>
+        <button class="menu__botao" type="submit" text="Enviar mensagem">Enviar mensagem</button>
       </form>
     </section>
   </main>
+  <footer class="rodape">
+    <span class="rodape__texto">Desenvolvido por Mauricio Teixeira</span>
+    <span class="rodape__texto">2022</span>
+  </footer>
 </body>
 </html>
