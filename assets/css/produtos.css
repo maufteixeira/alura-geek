@@ -106,3 +106,31 @@
   }
   
 }
+
+@media screen and (min-width: 768px) {
+  .produtos {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 44rem;
+  }
+
+  .produtos__cabecalho {
+    width: 44rem;
+  }
+
+  .produtos__botao--ver {
+    font-size: 1rem;
+  }
+
+  .produtos__area {
+    width: 44rem;
+  }
+
+  .produto__lista {
+    width: 44rem;
+  }
+  
+  .produto__item {
+    width: 10rem;
+  }
+}

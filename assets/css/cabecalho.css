@@ -21,3 +21,48 @@
   height: 2.5rem;
   width: 8.3rem;
 }
+
+.cabecalho__lupa {
+  height: 1.1rem;
+  width: 1.2rem;
+}
+
+@media screen and (min-width: 360px) {
+  .cabecalho__pesquisa {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cabecalho {
+    width: 46rem;
+  }
+
+  .cabecalho__lupa {
+    display: none;
+  }
+
+  .cabecalho__pesquisa {
+    background-color: var(--gelo);
+    border: none;
+    border-radius: 16px;
+    display: flex;
+    height: 2.5rem;
+    padding-left: 1rem;
+    width: 17rem;
+  }
+
+  .cabecalho__input {
+    background-color: transparent;
+    border: none;
+    float: left;
+    height: 2.5rem;
+    width: 15rem;
+  }
+
+  .cabecalho__img {
+    align-self: center;
+    height: 1rem;
+    width: 1rem;
+  }
+}

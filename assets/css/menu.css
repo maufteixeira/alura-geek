@@ -91,5 +91,53 @@
   margin-left: 1rem;
   margin-top: 0.5rem;
   width: 9.4rem;
+}
 
+@media screen and (min-width: 768px) {
+  .menu {
+    align-items: flex-start;
+    flex-direction: row;
+    width: 46rem;
+  }
+
+  .menu__imagem {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 21rem;
+  }
+
+  .menu__logo {
+    align-self: flex-start;
+    padding-left: 2rem;
+  }
+
+  .menu__lista {
+    align-items: flex-start;
+    margin-left: -13rem;
+    padding-left: 2rem;
+    padding-top: 6rem;
+    position: absolute;
+    float: left;
+    width: 11rem;
+  }
+
+  .menu.item {
+    width: auto;
+  }
+
+  .menu__form {
+    margin-left: 6rem;
+    margin-top: 2rem;
+  }  
+
+  .menu__titulo--formulario {
+    padding-left: 0;
+  }
+
+  .menu__nome, .menu__mensagem {
+    margin-left: 0;
+    width: 27rem;
+  }
 }
