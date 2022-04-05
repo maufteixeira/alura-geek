@@ -97,7 +97,8 @@
   .menu {
     align-items: flex-start;
     flex-direction: row;
-    width: 46rem;
+    height: 22.5rem;
+    width: 48rem;
   }
 
   .menu__imagem {
@@ -105,16 +106,21 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    padding-left: 2rem;
     width: 21rem;
   }
 
   .menu__logo {
     align-self: flex-start;
-    padding-left: 2rem;
+    height: 3.1rem;
+    margin-bottom: 0;
+    margin-top: 2rem;
+    width: 11rem;
   }
 
   .menu__lista {
     align-items: flex-start;
+    margin-bottom: 1.5rem;
     margin-left: -13rem;
     padding-left: 2rem;
     padding-top: 6rem;
@@ -123,7 +129,8 @@
     width: 11rem;
   }
 
-  .menu.item {
+  .menu__item {
+    margin-bottom: 1.5rem;
     width: auto;
   }
 
@@ -136,8 +143,20 @@
     padding-left: 0;
   }
 
-  .menu__nome, .menu__mensagem {
+  .menu__nome {
+    height: 3.5rem;
     margin-left: 0;
-    width: 27rem;
+    width: 26rem;
+  }
+
+  .menu__mensagem {
+    height: 5rem;
+    margin-bottom: 0.3rem;
+    margin-left: 0;
+    width: 26rem;
+  }
+
+  .menu__botao {
+    margin: 0;
   }
 }
