@@ -14,3 +14,15 @@ body {
   padding: 0;
   width: 23rem;
 }
+
+@media screen and (min-width: 768px){
+  body {
+    width: 48rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    width: 90rem;
+  }
+}
