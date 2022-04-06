@@ -74,13 +74,14 @@
 
 @media screen and (min-width: 1024px) {
   .painel {
+    margin-bottom: 4rem;
     width: 90rem;
   }
 
   .painel__items {
     height: 22rem;
     padding-left: 9.5rem;
-    width: 88rem;
+    width: 80rem;
   }
 
   .painel__titulo {
