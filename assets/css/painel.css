@@ -1,7 +1,7 @@
 .painel {
   margin: 0;
   padding: 0;
-  width: 22rem;
+  width: 23rem;
 }
 
 .painel__items {
@@ -14,7 +14,7 @@
   height: 12rem;
   justify-content: flex-end;
   padding-left: 1rem;
-  width: 21rem;
+  width: 22rem;
 }
 
 .painel__titulo {

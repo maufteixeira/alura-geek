@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/cabecalho.css">
+  <link rel="stylesheet" href="../assets/css/Login/formulario.css">
+  <link rel="stylesheet" href="../assets/css/menu.css">
+  <link rel="stylesheet" href="../assets/css/rodape.css">
+  <link rel="stylesheet" href="../style.css">
+  <title>AluraGeek | Login</title>
+</head>
+<body>
+  <header class="cabecalho">
+    <div class="cabecalho__desktop">
+      <img class="cabecalho__logo" src="../assets/img/logo.png" alt="Logo da AluraGeek" >
+      <div class="cabecalho__pesquisa">
+        <input class="cabecalho__input" type="search" placeholder="O que deseja encontrar?">
+        <img class="cabecalho__img" src="../assets/img/lupa.png">
+      </div>
+    </div>
+    <input class="cabecalho__botao" type="button" value="Login">
+    <img class="cabecalho__lupa" src="../assets/img/lupa_preta.png">
+  </header>
+  <main>
+    <section class="formulario">
+      <h4 class="formulario__titulo">Iniciar Sessão</h4>
+      <form class="formulario__login">
+        <input class="formulario__email" type="email" placeholder="Insira seu e-mail" required data-tipo="email">
+        <input class="formulario__senha" type="password" placeholder="Insira sua senha" required data-tipo="senha">
+        <input class="formulario__botao"  type="button" value="Entrar">
+      </form>
+    </section>
+    <section class="menu">
+      <div class="menu__imagem">
+        <img class="menu__logo" src="../assets/img/logo.png">
+      </div>
+      <div class="menu__navegacao">
+        <ul class="menu__lista">
+          <li class="menu__item">
+            <a href="#" class="menu__link">Quem somos nós</a>
+            
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Política de privacidade</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Programa de fidelidade</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Nossas lojas</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Quero ser franqueado</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Anuncie aqui</a>
+          </li>
+        </ul>
+      </div>
+      <div class="menu__form">
+        <span class="menu__titulo--formulario">Fale conosco</span>
+        <form class="menu__formulario">
+          <input 
+            class="menu__nome" 
+            type="text" 
+            name="nome" 
+            placeholder="Nome" 
+            title="Insira seu nome" 
+            required 
+            data-tipo="nome"
+          >
+          <textarea 
+            name="mensagem"  
+            cols="30" 
+            rows="10" 
+            class="menu__mensagem" 
+            placeholder="Escreva sua mensagem" 
+          >
+          </textarea>
+          <button class="menu__botao" type="submit" text="Enviar mensagem">Enviar mensagem</button>
+        </form>
+      </div>  
+    </section>
+  </main>
+  <footer class="rodape">
+    <span class="rodape__texto">Desenvolvido por Mauricio Teixeira</span>
+    <span class="rodape__texto">2022</span>
+  </footer>
+  </main>
+</body>
+</html>
