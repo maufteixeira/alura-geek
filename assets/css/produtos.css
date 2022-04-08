@@ -91,9 +91,22 @@
 .produto__botao {
   border: none;
   color: var(--azul-medio);
+  cursor: pointer;
   font-size: 0.875rem;
   font-weight: 700;
   padding: 0;
+}
+
+.produto__link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.produto__link:link,
+.produto__link:active,
+.produto__link:hover,
+.produto__link:visited {
+  color: var(--azul-medio);
 }
 
 @media screen and (min-width: 340px) {

@@ -3,15 +3,15 @@
   background-color: var(--gelo);
   display: flex;
   flex-direction: column;
-  height: 29rem;
-  width: 90rem;
+  height: 24rem;
+  width: 22.5rem;
 }
 
 .formulario__titulo {
   color: var(--cinza-escuro);
   font-size: 1.125rem;
   font-weight: 700;
-  margin: 5.7rem 0 1.5rem 0;
+  margin: 6rem 0 1.5rem 0;
   text-align: center;
 }
 
@@ -26,10 +26,10 @@
   border: none;
   border-bottom: 3px solid var(--cinza-claro);
   border-radius: 4px;
-  height: 4rem;
+  height: 2.6rem;
   outline: none;
   padding-left: 0.75rem;
-  width: 26.4rem ;
+  width: 17rem ;
 }
 
 .formulario__botao {
@@ -37,8 +37,8 @@
   color: var(--branco);
   cursor: pointer;
   border: none;
-  height: 4rem;
-  width: 26.3rem;
+  height: 2.5rem;
+  width: 6.8rem;
 }
 
 @media screen and (min-width: 768px) {
